@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://127.0.0.1:5000/profile/user_152348213",
+    "title": "http",
+    "timestamp": "2026-09-09T20:37:25.128395"
+  },
+  {
+    "url": "https:///http//127.0.0.1:5000/profile/user_152348213",
+    "title": "http",
+    "timestamp": "2026-09-09T20:37:18.704395"
+  },
+  {
+    "url": "https:///http://127.0.0.1:5000/profile/user_152348213",
+    "title": "\u267e\ufe0f Infinity Internet",
+    "timestamp": "2026-09-09T20:37:10.655726"
+  },
+  {
+    "url": "http://127.0.0.1:5000",
+    "title": "Google",
+    "timestamp": "2026-09-09T20:11:41.474276"
+  },
+  {
+    "url": "https://www.google.com",
+    "title": "\u0414\u0437\u0435\u043d \u2014 \u0433\u043b\u0430\u0432\u043d\u0430\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043c\u0438\u043b\u043b\u0438\u043e\u043d\u0430\u043c \u043b\u044e\u0434\u0435\u0439 \u0443\u0437\u043d\u0430\u0432\u0430\u0442\u044c, \u0447\u0442\u043e \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442 \u0432 \u043c\u0438\u0440\u0435.",
+    "timestamp": "2026-09-09T19:08:58.013661"
+  },
+  {
+    "url": "https://dzen.ru/?yredirect=true",
+    "title": "\u0414\u0437\u0435\u043d \u2014 \u0433\u043b\u0430\u0432\u043d\u0430\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043c\u0438\u043b\u043b\u0438\u043e\u043d\u0430\u043c \u043b\u044e\u0434\u0435\u0439 \u0443\u0437\u043d\u0430\u0432\u0430\u0442\u044c, \u0447\u0442\u043e \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442 \u0432 \u043c\u0438\u0440\u0435.",
+    "timestamp": "2026-09-09T18:55:34.296757"
+  },
+  {
+    "url": "https://yandex.ru",
+    "title": "Google",
+    "timestamp": "2026-09-09T18:54:03.609119"
+  },
+  {
+    "url": "https://adkillerantiblock.mrfoggydev.workers.dev/",
+    "title": "Google",
+    "timestamp": "2026-09-09T17:57:00.132796"
+  },
+  {
+    "url": "https://gebudimusic.mrfoggydev.workers.dev/?track=1",
+    "title": "qy6fg-133893759450.europe-west6.run.app",
+    "timestamp": "2026-09-09T17:25:56.836757"
+  },
+  {
+    "url": "https://qy6fg-133893759450.europe-west6.run.app/",
+    "title": "https://qy6fg-133893759450.europe-west6.run.app/",
+    "timestamp": "2026-09-09T17:23:05.716282"
+  },
+  {
+    "url": "https://www.google.com/",
+    "title": "Google",
+    "timestamp": "2026-09-09T17:20:07.013690"
+  }
+]

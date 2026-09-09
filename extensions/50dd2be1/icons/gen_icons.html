@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <canvas id="c16" width="16" height="16"></canvas>
+  <canvas id="c48" width="48" height="48"></canvas>
+  <canvas id="c128" width="128" height="128"></canvas>
+
+  <script>
+    function draw(id, size) {
+      const canvas = document.getElementById(id);
+      const ctx = canvas.getContext('2d');
+      
+      // Фон (Зеленый щит)
+      ctx.fillStyle = '#4CAF50';
+      ctx.beginPath();
+      ctx.roundRect(0, 0, size, size, size * 0.2);
+      ctx.fill();
+
+      // Молния (Белая)
+      ctx.fillStyle = 'white';
+      ctx.beginPath();
+      ctx.moveTo(size * 0.5, size * 0.2);
+      ctx.lineTo(size * 0.3, size * 0.6);
+      ctx.lineTo(size * 0.45, size * 0.6);
+      ctx.lineTo(size * 0.35, size * 0.85);
+      ctx.lineTo(size * 0.75, size * 0.45);
+      ctx.lineTo(size * 0.55, size * 0.45);
+      ctx.lineTo(size * 0.65, size * 0.2);
+      ctx.fill();
+    }
+
+    draw('c16', 16);
+    draw('c48', 48);
+    draw('c128', 128);
+  </script>
+  <p>Кликни правой кнопкой на каждый квадрат и выбери "Сохранить картинку как...", назвав их icon16.png, icon48.png и icon128.png соответственно в папку icons.</p>
+</body>
+</html>

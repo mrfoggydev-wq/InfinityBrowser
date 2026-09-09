@@ -1,0 +1,145 @@
+[
+  {
+    "id": "adblock_plus",
+    "name": "🛡️ AdBlock Plus",
+    "version": "1.0.0",
+    "author": "InfinitySoft",
+    "description": "Блокировка рекламы на всех сайтах",
+    "script": "\n                // AdBlock Plus - InfinityBrowser\n                const blockedDomains = [\n                    'doubleclick.net', 'googleadservices.com',\n                    'googlesyndication.com', 'yandex.ru/ads',\n                    'adriver.ru', 'adfox.ru'\n                ];\n                \n                function blockAd(url) {\n                    for (let domain of blockedDomains) {\n                        if (url.includes(domain)) {\n                            return true;\n                        }\n                    }\n                    return false;\n                }\n                \n                // Перехват запросов\n                window.addEventListener('beforeload', function(e) {\n                    if (blockAd(e.url)) {\n                        e.preventDefault();\n                    }\n                }, true);\n                ",
+    "manifest": {},
+    "enabled": true,
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "path": "",
+    "popup_html": "",
+    "options_html": ""
+  },
+  {
+    "id": "dark_reader",
+    "name": "🌙 Dark Reader",
+    "version": "1.0.0",
+    "author": "InfinitySoft",
+    "description": "Ночной режим для всех сайтов",
+    "script": "\n                // Dark Reader - InfinityBrowser\n                function enableDarkMode() {\n                    const style = document.createElement('style');\n                    style.textContent = `\n                        html { filter: invert(1) hue-rotate(180deg) brightness(0.9); }\n                        img, video, iframe { filter: invert(1) hue-rotate(180deg) brightness(0.85); }\n                    `;\n                    document.head.appendChild(style);\n                }\n                \n                // Включаем темный режим\n                enableDarkMode();\n                ",
+    "manifest": {},
+    "enabled": false,
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "path": "",
+    "popup_html": "",
+    "options_html": ""
+  },
+  {
+    "id": "translator",
+    "name": "🌍 Переводчик",
+    "version": "1.0.0",
+    "author": "InfinitySoft",
+    "description": "Перевод текста на странице",
+    "script": "\n                // Translator - InfinityBrowser\n                function translatePage() {\n                    console.log('🌍 Перевод страницы активирован');\n                    // Здесь будет API запрос к Google Translate\n                }\n                \n                // Добавляем кнопку перевода\n                const btn = document.createElement('button');\n                btn.textContent = '🌍 Перевести';\n                btn.style.cssText = `\n                    position: fixed;\n                    bottom: 20px;\n                    right: 20px;\n                    z-index: 9999;\n                    padding: 10px 20px;\n                    background: #00d4ff;\n                    color: #000;\n                    border: none;\n                    border-radius: 20px;\n                    cursor: pointer;\n                    font-weight: bold;\n                    box-shadow: 0 4px 15px rgba(0,212,255,0.3);\n                `;\n                btn.onclick = translatePage;\n                document.body.appendChild(btn);\n                ",
+    "manifest": {},
+    "enabled": true,
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "path": "",
+    "popup_html": "",
+    "options_html": ""
+  },
+  {
+    "id": "password_manager",
+    "name": "🔑 Менеджер паролей",
+    "version": "1.0.0",
+    "author": "InfinitySoft",
+    "description": "Автозаполнение паролей",
+    "script": "\n                // Password Manager - InfinityBrowser\n                function fillPasswords() {\n                    const inputs = document.querySelectorAll('input[type=\"password\"]');\n                    for (let input of inputs) {\n                        // Здесь будет автозаполнение\n                        console.log('🔑 Найдено поле пароля');\n                    }\n                }\n                fillPasswords();\n                ",
+    "manifest": {},
+    "enabled": true,
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "path": "",
+    "popup_html": "",
+    "options_html": ""
+  },
+  {
+    "id": "screenshot",
+    "name": "📸 Скриншоты",
+    "version": "1.0.0",
+    "author": "InfinitySoft",
+    "description": "Быстрые скриншоты страниц",
+    "script": "\n                // Screenshot - InfinityBrowser\n                function takeScreenshot() {\n                    console.log('📸 Скриншот сделан');\n                    // Здесь будет код для скриншота\n                }\n                \n                // Добавляем кнопку\n                const btn = document.createElement('button');\n                btn.textContent = '📸 Скриншот';\n                btn.style.cssText = `\n                    position: fixed;\n                    bottom: 70px;\n                    right: 20px;\n                    z-index: 9999;\n                    padding: 10px 20px;\n                    background: #ff6b6b;\n                    color: #fff;\n                    border: none;\n                    border-radius: 20px;\n                    cursor: pointer;\n                    font-weight: bold;\n                    box-shadow: 0 4px 15px rgba(255,107,107,0.3);\n                `;\n                btn.onclick = takeScreenshot;\n                document.body.appendChild(btn);\n                ",
+    "manifest": {},
+    "enabled": true,
+    "permissions": [
+      "activeTab",
+      "screenshots"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "path": "",
+    "popup_html": "",
+    "options_html": ""
+  },
+  {
+    "id": "50dd2be1",
+    "name": "Anti-Block & Ad-Killer",
+    "version": "2.1",
+    "author": "Неизвестен",
+    "description": "",
+    "script": "",
+    "manifest": {
+      "manifest_version": 3,
+      "name": "Anti-Block & Ad-Killer",
+      "version": "2.1",
+      "permissions": [
+        "storage",
+        "activeTab",
+        "declarativeNetRequest"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "web_accessible_resources": [
+        {
+          "resources": [
+            "ads.json",
+            "ads/*.png",
+            "ads/*.jpg"
+          ],
+          "matches": [
+            "<all_urls>"
+          ]
+        }
+      ],
+      "icons": {
+        "128": "icons/icon128.png"
+      }
+    },
+    "enabled": true,
+    "permissions": [],
+    "host_permissions": [],
+    "path": "extensions\\50dd2be1",
+    "popup_html": "",
+    "options_html": ""
+  }
+]
