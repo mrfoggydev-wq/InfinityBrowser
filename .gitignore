@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Личные данные (не загружать)
+.first_run*
+language.json
+bookmarks.json
+history.json
+downloads.json
+notes.json
+permissions.json
+rss_feeds.json
+adblock.json
+extensions.json
+debug_log.txt
+error.txt
+log.txt
+data/
+
+# Резервные копии
+main_backup.py
+run_debug.py
+*.bak
+*.tmp
+
+# PyInstaller
+*.spec
